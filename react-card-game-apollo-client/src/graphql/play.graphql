@@ -1,0 +1,10 @@
+mutation Play($type: String!) {
+  play(type: $type) {
+    dealtCards {
+      suit
+      number
+    }
+    cardsLeft
+    acesLeft
+  }
+}

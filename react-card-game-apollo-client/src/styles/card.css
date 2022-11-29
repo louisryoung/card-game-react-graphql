@@ -1,0 +1,95 @@
+.card-0 {
+  transform: rotate(15deg) translate(-30px, -60px);
+  animation-name: card-animation-0;
+  animation-duration: 0.3s;
+}
+.card-1 {
+  transform: rotate(7.5deg) translate(-15px, -15px);
+  animation-name: card-animation-1;
+  animation-duration: 0.25s;
+  animation-delay: 0.05s;
+}
+.card-2 {
+  animation-name: card-animation-2;
+  animation-duration: 0.25s;
+  animation-delay: 0.1s;
+}
+.card-3 {
+  transform: rotate(-7.5deg) translate(15px, -15px);
+  animation-name: card-animation-3;
+  animation-duration: 0.25s;
+  animation-delay: 0.15s;
+}
+.card-4 {
+  transform: rotate(-15deg) translate(30px, -60px);
+  animation-name: card-animation-4;
+  animation-duration: 0.25s;
+  animation-delay: 0.2s;
+}
+@keyframes card-animation-0 {
+  0% {
+    transform: translate(465px, -545px);
+  }
+  100% {
+    transform: rotate(15deg) translate(-30px, -60px);
+  }
+}
+@keyframes card-animation-1 {
+  0% {
+    transform: translate(232px, -545px);
+  }
+  100% {
+    transform: rotate(7.5deg) translate(-15px, -15px);
+  }
+}
+@keyframes card-animation-2 {
+  0% {
+    transform: translate(0, -545px);
+  }
+  100% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+}
+@keyframes card-animation-3 {
+  0% {
+    transform: translate(-232px, -545px);
+  }
+  100% {
+    transform: rotate(-7.5deg) translate(15px, -15px);
+  }
+}
+@keyframes card-animation-4 {
+  0% {
+    transform: translate(-465px, -545px);
+  }
+  100% {
+    transform: rotate(-15deg) translate(30px, -60px);
+  }
+}
+.final-card-0 {
+  transform: rotate(5deg) translate(-15px, -15px);
+  animation-name: final-card-animation-0;
+  animation-duration: 0.25s;
+}
+.final-card-1 {
+  transform: rotate(-5deg) translate(15px, -15px);
+  animation-name: final-card-animation-1;
+  animation-duration: 0.25s;
+  animation-delay: 0.05s;
+}
+@keyframes final-card-animation-0 {
+  0% {
+    transform: translate(120px, -545px);
+  }
+  100% {
+    transform: rotate(5deg) translate(-15px, -15px);
+  }
+}
+@keyframes final-card-animation-1 {
+  0% {
+    transform: translate(-120px, -545px);
+  }
+  100% {
+    transform: rotate(-5deg) translate(15px, -15px);
+  }
+}
