@@ -1,4 +1,4 @@
-# React Card Game Apollo Client
+# React Card Game GraphQL Apollo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
